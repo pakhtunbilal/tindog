@@ -1,0 +1,193 @@
+        /* body elements */
+
+body{
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+        font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    color: #7F8487;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.big-heading{
+    font-size: 3em;
+    line-height: 1.5;
+}
+
+.pding{
+    padding: 7% 15%;
+}
+
+
+        /* title */
+
+#title{
+background-color:#ff4c68;
+color: #fff;
+text-align: left;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0% 10%;
+}
+
+.container-fluid{
+    padding: 3% 15% 8% 15%;
+}
+.download{
+    margin: 7%;
+    margin-left: 3%;
+}
+.iphone{
+    transform: rotate(25deg);
+    width: 28%;
+    position: absolute; 
+    right: 15%;
+    top: 20%;
+}
+
+        /* features */
+
+#features{
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-text{
+    font-size: 1.5rem;
+}
+.feature-class{
+    padding: 0% 5%;
+    line-height: 2;
+}
+
+        /* font awesome */
+
+.fa-solid{
+    font-weight: 1000;
+    margin-bottom: 10%;
+    font-size: xxx-large;
+    color: #FF9494;
+}
+.fa-solid:hover{
+    color: #ff4c68;
+}
+.fa-brands{
+    margin-right: 10px;
+}
+
+
+        /* testimonials */
+
+#testimonials{
+    color: #fff;
+    background-color: #FF9494;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-img{
+    width: 10%;
+    margin: 20px;
+    border-radius: 100%;
+}
+
+
+        /* press */
+
+#press{
+    background-color: #FF9494;
+    padding: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px 20px;
+}
+
+        /* carousel-item */
+
+.carousel-item{
+    padding: 7% 5%;    
+}
+
+        /* pricing */
+
+#pricing{
+    padding: 7% 10%;
+}
+.price-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.price-text{
+    font-size: 1.5rem;
+}
+.pricing-clm{
+    padding: 3% 2%;
+}
+.pp{
+    margin-bottom: 57px;
+}
+
+        /* CTA */
+
+#cta{
+    background-color: #ff4c68;
+}
+
+.cta-heading{
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.btmbtn{
+    margin: 5px;
+}
+
+
+        /* footer */
+
+#footer{
+    background-color: #fff;
+}
+
+.ftrlogo{
+    color: black;
+    font-size: 17px;
+    margin: 8px auto;
+}
+.envlp:hover{
+    color: black;
+}
+
+
+
+        /* media-queries */
+
+@media (max-width:1028px) {
+
+    .container-fluid{
+        text-align: center;
+    }
+
+    .iphone{
+        transform: rotate(0);
+        position: static;
+    }
+}
+@media (min-width:700px) and (max-width:1028px){
+    .iphone{
+        width: 85%;
+    }
+}
